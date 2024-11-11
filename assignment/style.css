@@ -3,9 +3,9 @@ html, body {
     background-color:rgb(255, 255, 255);
 }
 /* Add a background color to the header element */
-id, header { 
+#headerid { 
     background-color: cornflowerblue;
-
+   
 }
 
 /* Add a fun background color to the main element */
@@ -19,3 +19,10 @@ id, header {
 /* Change the font-family of your list */
 
 /* Add a background color to the footer element */
+
+/* reducing the iamage to visible size */
+#imageid {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+}
