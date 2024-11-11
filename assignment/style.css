@@ -9,6 +9,9 @@ html, body {
 }
 
 /* Add a fun background color to the main element */
+#mainid {
+    background-color: azure;
+}
 
 /* Align the h1 containing your name in the center of the header*/
 
@@ -19,6 +22,9 @@ html, body {
 /* Change the font-family of your list */
 
 /* Add a background color to the footer element */
+#footid {
+ background-color: cornflowerblue;
+}
 
 /* reducing the iamage to visible size */
 #imageid {
