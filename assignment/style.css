@@ -2,10 +2,27 @@
 html, body {
     background-color:rgb(255, 255, 255);
 }
+
 /* Add a background color to the header element */
+
 #headerid { 
     background-color: cornflowerblue;
    padding: 5px;
+}
+
+/* Align the h1 containing your name in the center of the header*/
+#head1id {
+ margin: 10px 40%;
+}
+
+/* styling the additional "about me"  container */
+#head2id {
+    color: darkslateblue;
+}
+
+/* styling class "special" to give paragraphs space from walls */
+#special {
+  margin: 0 10px;
 }
 
 /* Add a fun background color to the main element */
@@ -13,7 +30,7 @@ html, body {
     background-color: azure;
 }
 
-/* Align the h1 containing your name in the center of the header*/
+
 
 /* Make your p tag a different color and italic */
 
@@ -29,7 +46,6 @@ html, body {
 
 /* reducing the iamage to visible size */
 #imageid {
-    padding: 10px;
     width: 30%;
     height: 30%;
 }
