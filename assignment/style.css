@@ -1,6 +1,8 @@
 /* added page background */
+/* Change the font-family of your list */
 html, body {
     background-color:rgb(255, 255, 255);
+    font-family: Open Sans;
 }
 
 /* Add a background color to the header element */
@@ -12,7 +14,7 @@ html, body {
 
 /* Align the h1 containing your name in the center of the header*/
 #head1id {
- margin: 10px 40%;
+ padding-left: 40%;
 }
 
 /* styling the additional "about me"  container */
@@ -21,22 +23,22 @@ html, body {
 }
 
 /* styling class "special" to give paragraphs space from walls */
-#special {
-  margin: 0 10px;
+.special {
+  margin: 0 7px;
+  padding-bottom: 10px;
 }
 
 /* Add a fun background color to the main element */
 #mainid {
     background-color: azure;
+
 }
 
-
-
 /* Make your p tag a different color and italic */
-
-/* Put a border around your image */
-
-/* Change the font-family of your list */
+.ptag {
+    color: darkslateblue;
+    font-style: italic;
+}
 
 /* Add a background color to the footer element */
 #footid {
@@ -45,7 +47,10 @@ html, body {
 }
 
 /* reducing the iamage to visible size */
+/* Put a border around your image */
 #imageid {
     width: 30%;
     height: 30%;
+    border: 3px black solid;
+    margin-left: 4px;
 }
