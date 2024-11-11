@@ -1,8 +1,12 @@
 /* added page background */
 html, body {
-    background-color:black;
+    background-color:rgb(255, 255, 255);
 }
 /* Add a background color to the header element */
+id, header { 
+    background-color: cornflowerblue;
+
+}
 
 /* Add a fun background color to the main element */
 
