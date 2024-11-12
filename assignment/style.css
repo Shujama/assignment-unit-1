@@ -15,11 +15,13 @@ html, body {
 /* Align the h1 containing your name in the center of the header*/
 #head1id {
  text-align: center;
+ text-decoration: underline;
 }
 
 /* styling the additional "about me"  container */
 #head2id {
     color: darkslateblue;
+    text-decoration: underline;
 }
 
 /* styling class "special" to give paragraphs space from walls */
@@ -53,4 +55,9 @@ html, body {
     height: 30%;
     border: 3px black solid;
     margin-left: 4px;
+}
+
+/* underlining H3 */
+#head3id {
+    text-decoration: underline;
 }
