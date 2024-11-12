@@ -14,7 +14,7 @@ html, body {
 
 /* Align the h1 containing your name in the center of the header*/
 #head1id {
- padding-left: 40%;
+ text-align: center;
 }
 
 /* styling the additional "about me"  container */
